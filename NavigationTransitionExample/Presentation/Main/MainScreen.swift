@@ -33,6 +33,7 @@ struct MainScreen: View {
                             Text(hero.name)
                                 .font(.title)
                                 .bold()
+                                .foregroundStyle(.white)
                                 .frame(maxWidth: .infinity, alignment: .leading)
                                 .padding()
                         }
